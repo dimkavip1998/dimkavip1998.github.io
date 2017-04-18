@@ -58,7 +58,7 @@ $(function() {
 		//метод передачи запроса - POST
         type: "POST",
 		//URL-адрес запроса 
-        url: "decor.com/php/process.php",
+        url: "../process.php",
         //передаваемые данные - formData
         data: formData,
         // не устанавливать тип контента, т.к. используется FormData
