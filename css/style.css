@@ -1,0 +1,124 @@
+/*Основные*/
+body{
+    
+    background-image: url(../images/fon2.png);
+  
+    
+}
+
+.slick-slide img{max-width: 100%;
+height: auto;}
+.rows{padding-top:30px;}
+
+#fullpage {background: rgba(0, 0, 0, 0.5);}
+
+footer{
+    background: rgba(0, 0, 0, 0.62);
+    height: 30px;
+}
+span{font-size: 35px;}
+.slick-dotted.slick-slider{margin-top: 0;}
+body, h2{font-family: Neucha;color:#FFF;}
+#nomer{
+    font-size: 30px;
+}
+.text{
+    font-size: 30px;
+}
+#zag{
+    color:#FFF;
+    font-size: 70px;
+}
+h2{font-size:40px;}
+/*Конец основных*/
+/*Шапка*/
+.container-fluid{
+     background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+.nav > li{
+    margin: 0 30px;
+}
+.navbar-default{background: rgba(255, 255, 255, 0);
+border:none;
+color:#FFF}
+.navbar-default .navbar-nav > li > a{color:#FFF; font-size:20px; margin-left: 100px;}
+.navbar-default .navbar-nav > li > a:hover{background: rgba(255, 255, 255, 0.62);}
+.navbar-default .navbar-nav > li > a:active{background: rgb(255, 255, 255);}
+.navbar-default{position: }
+
+.navbar-default .navbar-brand{
+    margin-top:0;
+    padding-top: 0;
+}
+
+}/*Конец шапки*/
+
+/*Стили слайдера    */
+img{
+  max-width: 100%;
+  height: auto;
+}
+.sl__slide{
+    position: relative;
+}
+.sl__text{
+    position: absolute;
+   bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.56);
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.56);
+    padding: 20px 0;
+}
+.sl__zag, .sl__desc{margin: 0; padding: 0 10px;}
+.slick-dots li button{
+    border: 1px solid #777;
+    border-radius: 50%;
+}
+.slick-dots li button:before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #777;
+    opacity: 1;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -5px;
+  
+    
+}
+.slick-dots li button:hover, .slick-dots li.slick-active button{
+    border-color: #fff;
+}
+.slick-dots li button:hover:before, .slick-dots li.slick-active button:before{
+   background: #fff; 
+    
+}
+/*Конец стилей слайдера    */
+/*Шрифты*/
+@font-face {
+    font-family:Neucha;
+    src:url(../fonts/Neucha.ttf);
+}
+/*Конец шрифтов*/
+/*Панель*/
+.control-label{color:#000000;}
+
+/*Конец панели*/
+/*footer*/
+#footer{font-size: 20px;}
+/*Конец footer*/
+.sl {
+    max-width: 900px;
+    margin: 20px auto;
+    
+}
+
+.sl__img {
+    max-width: 900px;
+    max-height: 500px;
+}
