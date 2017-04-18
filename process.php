@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
  
     //2. Отправляем на почту
     // включить файл PHPMailerAutoload.php
-    require_once dirname(__FILE__) . 'phpmailer/PHPMailerAutoload.php';
+    require_once dirname(__FILE__) . '/phpmailer/PHPMailerAutoload.php';
     //формируем тело письма
     $output = "Дата: " . date("d-m-Y H:i") . "\n";
     $output .= "Имя пользователя: " . $name . "\n";
